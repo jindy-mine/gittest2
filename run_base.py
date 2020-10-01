@@ -25,3 +25,4 @@ runner = HTMLTestRunner(stream=open(REPORT_FILENAME, "wb"),
                         )
 runner.run(suite)
 print("更新本地代码")
+aaa = '第二次更新代码'

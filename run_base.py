@@ -24,3 +24,4 @@ runner = HTMLTestRunner(stream=open(REPORT_FILENAME, "wb"),
                         description="Jenkins测试"
                         )
 runner.run(suite)
+print("更新本地代码")
